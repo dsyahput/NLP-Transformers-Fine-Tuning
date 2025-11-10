@@ -29,7 +29,7 @@ It can be seen from the image below that the classes are **imbalanced**, with mo
 
 ![Class Distribution](images/cd.png)
 
-Original dataset: [Davidson et al., 2017](https://github.com/t-davidson/hate-speech-and-offensive-language)
+Original dataset: [t-davidson/hate-speech-and-offensive-language](https://github.com/t-davidson/hate-speech-and-offensive-language)
 
 ---
 
@@ -61,5 +61,3 @@ Here are the **training results** (example metrics on the test set):
 
 > ⚠️ Note: From the confusion matrix, the model performs best on class `1 = Offensive`.  
 > Classes `0 = Hate Speech` and `2 = Neither` are predicted less accurately because the dataset is **imbalanced**, with most examples belonging to the Offensive class. 
-
----
