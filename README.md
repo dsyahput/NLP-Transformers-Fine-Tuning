@@ -2,8 +2,6 @@
 
 This is an **NLP project** that fine-tunes a pretrained transformer model for **hate speech detection**, classifying tweets as **Hate Speech**, **Offensive**, or **Neither**. using Python and **Transformer models** (`vinai/bertweet-base` + Hugging Face Transformers).
 
-
-
 ---
 
 ## 🔹 Project Overview
@@ -63,3 +61,5 @@ Here are the **training results** (example metrics on the test set):
 
 > ⚠️ Note: From the confusion matrix, the model performs best on class `1 = Offensive`.  
 > Classes `0 = Hate Speech` and `2 = Neither` are predicted less accurately because the dataset is **imbalanced**, with most examples belonging to the Offensive class. 
+
+---
